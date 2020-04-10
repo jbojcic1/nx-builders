@@ -4,7 +4,10 @@
   "description": "Custom Nrwl Nx builders",
   "main": "index.js",
   "types": "index.d.ts",
-  "repository": "git@github.com:jbojcic1/nx-builders.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbojcic1/nx-builders.git"
+  },
   "author": "Josip Bojcic <jbojcic1@gmail.com>",
   "license": "MIT",
   "private": false,
