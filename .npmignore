@@ -11,9 +11,3 @@ tmp
 .ng_pkg_build
 jest.debug.config.js
 .tool-versions
-
-index.js
-index.d.ts
-
-src/**/*.d.ts
-src/**/*.js

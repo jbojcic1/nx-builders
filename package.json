@@ -1,19 +1,21 @@
 {
   "name": "nx-builders",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Custom Nrwl Nx builders",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbojcic1/nx-builders.git"
+    "url": "git+https://github.com/jbojcic1/nx-builders.git"
   },
+  "homepage": "https://github.com/jbojcic1/nx-builders",
   "author": "Josip Bojcic <jbojcic1@gmail.com>",
   "license": "MIT",
   "private": false,
   "builders": "./builders.json",
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "yarn build",
     "format:write": "prettier --write ./index.ts ./src/**/*.ts",
     "format:check": "prettier --check ./index.ts ./src/**/*.ts"
   },
